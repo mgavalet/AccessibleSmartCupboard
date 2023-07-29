@@ -1,0 +1,53 @@
+<div class="main-containerr">
+    <div class="ProductQuantity" [ngStyle]="{'color': isLowQuantity ? LeftLabelColor : 'black'}">
+
+        <div class="undefinedQuant" *ngIf="ProductQuant == 'undefined'; else elseBlock"> <img src={{quantIcon}} />
+            {{ProductQuant}} quantity</div>
+        <ng-template #elseBlock>{{ProductQuant}} gr</ng-template>
+
+    </div>
+
+    <div class="ProductExpiringDate" [ngStyle]="{'color': isExpiring ? LeftLabelColor : 'black'}">
+        <img src={{timeIcon}} /> {{ProductExpiringDate}}
+    </div>
+
+
+    <div class="ProductPhoto">
+        <img [src]=ProductFotos alt={{ProductName}} />
+    </div>
+
+
+    <div class="ProductLeftLabel" [ngStyle]="{backgroundColor: LeftLabelColor }">
+
+        <div class="icon">
+            <img src={{ProductSymbol}} />
+        </div>
+    </div>
+
+    <div routerLink="/StatisticsPage" class="StatisticsButton">
+        <button>
+            <div class="ActionCommand">
+                Stats
+            </div>
+        </button>
+    </div>
+
+    <div class="LocateButton">
+        <button (click)="LightItemFunc()">
+            <div class="Location"> {{ProductShelf}} Shelf </div>
+            <div class="ActionCommand"> Locate </div>
+        </button>
+    </div>
+
+ 
+    <div class="WhoWhenLastUsedItem" *ngIf="ProductUserLastUsed !== 'Unused' ">
+        This package was last used by <b> {{ProductUserLastUsed}}</b>
+    </div>
+
+    <div class="Unused" *ngIf="ProductUserLastUsed == 'Unused' ">
+        <b>Unused</b>
+    </div>
+
+    <hr> <!--horizontal line that separete the products -->
+
+</div>

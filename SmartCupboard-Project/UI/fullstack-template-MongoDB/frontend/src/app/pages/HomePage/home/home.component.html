@@ -1,0 +1,27 @@
+<div class="UpperBar">
+
+    <ami-fullstack-top-bar (newFilterButtonEvent)="printClickEvent($event)">
+
+    </ami-fullstack-top-bar>
+</div>
+
+
+
+<div class="middleBar">
+    <ng-container *ngIf="responseReceived === true">
+
+        <ami-fullstack-middle-bar [dataToShow]="dataToPassToMiddleChild" [pageNum]=pageToPass>
+
+        </ami-fullstack-middle-bar>
+    </ng-container>
+</div>
+
+<div class="bottomBar">
+    <ng-container *ngIf="responseReceived === true">
+        <ami-fullstack-bottom-bar [totalPages]="dataToBottomBar"
+            (newPressedPageEvent)="handleButtonTopBarEvents($event)">
+
+        </ami-fullstack-bottom-bar>
+    </ng-container>
+
+</div>

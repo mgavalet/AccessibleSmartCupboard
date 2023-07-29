@@ -1,0 +1,109 @@
+:host{
+    display: block;
+    left: 0;
+
+    width: 800px;
+    height: 120px;
+}
+
+
+div.main-containerr{
+    position: relative;
+}
+
+div.ProductQuantity{
+    font-size: 36px;    
+    position: absolute;
+    left: 106px;  
+    top: 15px;
+}
+
+div.undefinedQuant{
+    font-size: 23px;
+    left: 106px; 
+    top: 60px;
+    font-style: italic;
+    // make the color more transparent
+    color: rgba(0,0,0,0.5);
+}
+
+div.ProductExpiringDate{
+    font-size: 28px;
+    position: absolute; 
+    left: 106px; 
+    top: 60px;
+}
+
+div.ProductPhoto{
+    position: absolute;
+    left: 34px;
+    top: 6px;
+}
+
+div.ProductLeftLabel{
+    width: 32px;
+    height: 120px;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    .icon{
+        right: 50%;
+        bottom: 50%;
+        transform: translate(50%,50%);
+        position: absolute;
+    }
+}
+
+button{
+    background-color: #A9E3E3;
+    text-align: center;
+    border-radius: 10px;
+    height: 58px;
+    width: 135px;
+}
+
+div.StatisticsButton{
+    position: absolute;
+    top: 30px;
+    left: 400px;
+}
+
+div.LocateButton{
+    position: absolute;
+    top: 30px;
+    left: 600px;
+}
+
+div.ActionCommand{
+    font-size: 24px;
+}
+
+div.Location{
+    font-size: 14px;
+}
+
+
+div.WhoWhenLastUsedItem{
+    position: absolute;
+    top: 100px;
+    left: 400px; // 500 initially
+}
+
+div.Unused{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+
+hr {
+    width: 800px;
+    height: 0.5px;
+    background-color:black;
+    opacity: 0.3;
+
+    position: absolute;
+    top: 103px;
+    left: 0px;
+}

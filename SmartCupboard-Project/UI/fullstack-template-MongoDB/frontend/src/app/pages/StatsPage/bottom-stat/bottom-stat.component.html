@@ -1,0 +1,5 @@
+<div class="but">
+    <button id = 1 type="button" (click)= "pressButtonFunc(0)" [ngClass] = "{'yellow' : pressState[0] , 'blue' : !pressState[0]}"> Daily  </button>
+    <button id = 2 type="button" (click)= "pressButtonFunc(1)" [ngClass] = "{'yellow' : pressState[1] , 'blue' : !pressState[1]}"> Weekly </button>
+    <button id = 3 type="button" (click)= "pressButtonFunc(2)" [ngClass] = "{'yellow' : pressState[2] , 'blue' : !pressState[2]}"> Monthly </button>
+</div>

@@ -1,0 +1,31 @@
+:host{
+    display: block;
+    left: 0;
+
+    width: 800px;
+    height: 60px;
+    background-color: #26384E;
+}
+
+
+.yellow {
+    background-color: #F5FCCF;
+}
+
+.blue {
+    background-color: #A9E3E3;
+}
+
+button{
+    background-color: #A9E3E3;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+div.but{
+    position: absolute;
+    left: 300px;
+    top: 10px;
+}

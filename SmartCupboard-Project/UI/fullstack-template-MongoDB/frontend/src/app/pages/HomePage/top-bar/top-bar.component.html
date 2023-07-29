@@ -1,0 +1,11 @@
+<div class="header">
+    Status
+</div>
+
+<div class="but">
+    <button id = 1 type="button" (click)= "pressButtonFunc(0)" [ngClass] = "{'yellow' : pressState[0] , 'blue' : !pressState[0]}">   All  </button>
+    <button id = 2 type="button" (click)= "pressButtonFunc(1)" [ngClass] = "{'yellow' : pressState[1] , 'blue' : !pressState[1]}"> Top Shelf</button>
+    <button id = 3 type="button" (click)= "pressButtonFunc(2)" [ngClass] = "{'yellow' : pressState[2] , 'blue' : !pressState[2]}">Down Shelf</button>
+    <button id = 4 type="button" (click)= "pressButtonFunc(3)" [ngClass] = "{'yellow' : pressState[3] , 'blue' : !pressState[3]}"><i class="far fa-clock"></i>Expriring</button>
+    <button id = 5 type="button" (click)= "pressButtonFunc(4)" [ngClass] = "{'yellow' : pressState[4] , 'blue' : !pressState[4]}"><i class="fas fa-cookie-bite"></i>Low Qty</button>
+</div>

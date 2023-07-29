@@ -1,0 +1,151 @@
+{
+    "Cupboards":[
+        {
+            "_id" : 1,
+            "door_status" : "closed",
+            "known_theme" : "cans",
+            "default_time" : "3:00 am",
+            "rep_every" : 90,
+            "last_learn" : 180,
+
+            "Shelves" : [
+                {
+                    "vertical_order" : 1,
+                    "height" : 32,
+                    "length" : 200
+                },
+                {
+                    "vertical_order" : 2,
+                    "height" : 200,
+                    "length" : 200
+                }
+            ],
+
+            "Cupboard_controller":{
+                "IP" : "139.91.96.156",
+                "server_port" : "80",
+                "camera_IP": "192.168.4.19",
+                "arduino1Port": "/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.1:1.0-port0",
+                "arduino2Port": "/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.2:1.0-port0"
+            }
+        },
+        {
+            "_id" : 2,
+            "door_status" : "closed",
+            "known_theme" : "legumes",
+            "default_time" : "4:00 am",
+            "rep_every" : 80,
+            "last_learn" : 160,
+
+            "Shelves" : [
+                {
+                    "vertical_order" : 1,
+                    "height" : 32,
+                    "length" : 200
+                },
+                {
+                    "vertical_order" : 2,
+                    "height" : 200,
+                    "length" : 200
+                },
+                {
+                    "vertical_order" : 3,
+                    "height" : 300,
+                    "length" : 200
+                }
+            ],
+
+            "Cupboard_controller":{
+                "IP" : "139.91.96.146",
+                "server_port" : "80",
+                "camera_IP": "192.168.4.20",
+                "arduino1Port": "/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.1:1.0-port0",
+                "arduino2Port": "/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.2:1.0-port0"
+            }        
+        }
+    ],
+
+    "Users" : [
+        {
+            "_id" : "mariosgvl",
+            "name" : "Marios",
+            "surname" : "Gavaletakis",
+            "age" : 25,
+            "permissions" : [1,2]
+        },
+        {
+            "_id" : "asterioLeo",
+            "name" : "Asterios",
+            "surname" : "Leonidis",
+            "age" : 38,
+            "permissions" : [2]
+        }
+    ],
+    
+    "Well_known_themes" : [
+        {
+          "_id" : "cans",
+          "icon" : "pathToIcon"
+        },
+        {
+            "_id" : "legumes",
+            "icon" : "pathToIcon"
+        },
+        {
+            "_id" : "pasta",
+            "icon" : "pathToIcon"
+        }
+    ],
+    
+    "Well_known_items":[
+        {
+            "categ" : "Rice",
+            "name" : "Rice",
+            "orig_weight" : 400,
+            "image" : "pathToImage",
+            "exp_expiring_days" : 30
+        },
+        {
+            "categ" : "Tomato",
+            "name" : "Pumaro can",
+            "orig_weight" : 400,
+            "image" : "pathToImage",
+            "exp_expiring_days" : 30
+        },
+        {
+            "categ" : "Vinegar",
+            "name" : "Vinegar",
+            "orig_weight" : 400,
+            "image" : "pathToImage",
+            "exp_expiring_days" : 30
+        },
+        {
+            "categ" : "Sugar",
+            "name" : "Sugar",
+            "orig_weight" : 400,
+            "image" : "pathToImage",
+            "exp_expiring_days" : 30
+        },
+        {
+            "categ" : "Coffee",
+            "name" : "Coffee",
+            "orig_weight" : 400,
+            "image" : "pathToImage",
+            "exp_expiring_days" : 30
+        },
+        {
+            "categ" : "Mustard",
+            "name" : "Mustard",
+            "orig_weight" : 400,
+            "image" : "pathToImage",
+            "exp_expiring_days" : 30
+        }
+    ],
+
+    "Current_items" : [
+        {
+            
+        }
+    ]
+
+}

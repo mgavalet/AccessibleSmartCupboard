@@ -1,0 +1,100 @@
+{
+    "Cupboard" : 1,
+    "Shelf" : [
+        {
+            "vertical_order" : 1 ,
+            "Slots" : [
+                {
+                    "start" : 0,
+                    "end" : 30,
+                    "item" : "empty"    
+                },
+                {
+                    "start" : 30,
+                    "end" : 40,
+                    "item" : {
+                        "name" : "Sugar",
+                        "quantity" : 35,
+                        "expiring_date" : "29/12/24",
+                        "last_user_id" : "mariosgvl"
+                    }    
+                },
+                {
+                    "start" : 40,
+                    "end" : 100,
+                    "item" : "empty"    
+                },
+                {
+                    "start" : 100,
+                    "end" : 120,
+                    "item" : {
+                        "name" : "Rice",
+                        "quantity" : 300,
+                        "expiring_date" : "25/12/24",
+                        "last_user_id" : "mariosgvl"
+                    }    
+                },
+                {
+                    "start" : 140,
+                    "end" : 160,
+                    "item" : {
+                        "name" : "Merenda",
+                        "quantity" : 400,
+                        "expiring_date" : "04/11/24",
+                        "last_user_id" : "mariosgvl"
+                    }    
+                },
+                {
+                    "start" : 160,
+                    "end" : 200,
+                    "item" : "empty"    
+                }
+            ]
+        },
+        {
+            "vertical_order" : 2 ,
+            "Slots" : [
+                {
+                    "start" : 0,
+                    "end" : 50,
+                    "item" : "empty"    
+                },
+                {
+                    "start" : 50,
+                    "end" : 60,
+                    "item" : {
+                        "name" : "Corn",
+                        "quantity" : 124,
+                        "expiring_date" : "12/12/24",
+                        "last_user_id" : "asterioLeo"
+                    }    
+                },
+                {
+                    "start" : 60,
+                    "end" : 70,
+                    "item" : {
+                        "name" : "Corn",
+                        "quantity" : 400,
+                        "expiring_date" : "12/09/24",
+                        "last_user_id" : "asterioLeo"
+                    }    
+                },
+                {
+                    "start" : 70,
+                    "end" : 80,
+                    "item" : {
+                        "name" : "Mushroom",
+                        "quantity" : 400,
+                        "expiring_date" : "19/02/22",
+                        "last_user_id" : "asterioLeo"
+                    }    
+                },
+                {
+                    "start" : 60,
+                    "end" : 200,
+                    "item" : "empty"    
+                }
+            ]
+        }
+    ]
+}

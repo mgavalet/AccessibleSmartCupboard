@@ -1,0 +1,8 @@
+<div *ngFor="let product of productData "> 
+    <ami-fullstack-row-product [ProductName] = "product.Well_known_item_id" [ProductQuant] = "product.quantity" [ProductExpiringDate] = "product.expiring_date"
+    [ProductLocationStart] = "product.slot_start" [ProductLocationEnd] = "product.slot_end" [ProductOriginalQuantity] = "product.original_weight" [ProductShelf] = "product.vertical_order" [ProductDaysToExpire] = "product.daysToExpire"
+    [ProductUserLastUsed] = "product.last_user_id" [ProductWhenLastUsed] = "product.WhenLastUsed" >
+
+    </ami-fullstack-row-product>
+
+</div>

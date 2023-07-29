@@ -1,0 +1,27 @@
+<div class="main-container" (click) = "navigateToProductPage(ProductName)"> 
+    <div class="ProductName">
+        {{ProductName}}
+    </div>
+    
+    <div class="ProductQuantity" [ngStyle]="{'color': isLowQuantity ? LeftLabelColor : 'black'}"> 
+
+        <div class="undefinedQuant" *ngIf="ProductQuant == 'undefined'; else elseBlock">{{ProductQuant}} quantity</div>
+        <ng-template #elseBlock>{{ProductQuant}} gr</ng-template>    
+
+
+    </div>
+    
+    
+    <div class="ProductPhoto">
+        <img src= {{ProductFotos}} alt = {{ProductName}}/>
+    </div>
+    
+    
+    <div class="ProductLeftLabel" [ngStyle]="{backgroundColor: LeftLabelColor }"> 
+
+        <div class="icon">
+            <img src={{ProductSymbol}} />
+        </div>
+    </div>
+    
+</div>

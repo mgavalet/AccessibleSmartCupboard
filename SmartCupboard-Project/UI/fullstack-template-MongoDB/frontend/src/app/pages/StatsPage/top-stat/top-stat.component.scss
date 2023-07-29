@@ -1,0 +1,52 @@
+:host{ //host targets selector : 'ami-fullstack-top'
+    display: block;
+    left: 0;
+
+    width: 800px;
+    height: 60px;
+    background-color: #26384E;
+}
+
+div.PageTitle{
+    position: absolute;
+    top: 8px;
+    left: 330px;
+    font-size: 36px;
+    color: white;
+}
+
+
+.yellow {
+    background-color: #F5FCCF;
+}
+
+.blue {
+    background-color: #A9E3E3;
+}
+
+button{
+    background-color: #A9E3E3;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+div.but{
+    position: absolute;
+    left: 600px;
+    top: 10px;
+}
+
+
+.HomeButton{
+    background-color: #A9E3E3;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 50px;  
+    height: 50px;
+
+    position: absolute;
+    top: 0px;
+    left: 47px;
+}

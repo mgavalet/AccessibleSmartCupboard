@@ -1,0 +1,44 @@
+:host{
+    display: block;
+    left: 0;
+
+    width: 800px;
+    height: 60px;
+    background-color: #26384E;
+
+}
+
+button{
+    background-color: #A9E3E3;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 50px;  
+    height: 50px;
+
+    position: absolute;
+    top: 5px;
+    left: 47px;
+}
+
+div.PageProductName{
+    position: absolute;
+    top: 8px;
+    left: 360px;
+    font-size: 36px;
+    color: white;
+}
+
+div.RightCornerInfo{
+    position: absolute;
+    top: 15px;
+    left: 535px;
+    color: white;
+}
+
+span.makethis22px{
+    font-size: 22px;
+}
+
+span.makethis36px{
+    font-size: 36px;
+}

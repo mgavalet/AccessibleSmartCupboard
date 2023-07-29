@@ -1,0 +1,176 @@
+{
+    "Users" : [
+        {
+            "name" : "Marios",
+            "surname" : "Gavaletakis",
+            "age" : 25
+        },
+        {
+            "name" : "Antonis",
+            "surname" : "Gavaletakis",
+            "age" : 34
+        },
+        {
+            "name" : "Asterios",
+            "surname" : "Leonidis",
+            "age" : 39
+        }
+    ],
+
+
+    "Manager_controller" : {
+        "IP" : "127.0.0.1",
+        "port" : 6379,
+        "redisChScale" : "itemOnScale",
+        "redisChTouch" : "touchState",
+        "redisChProx" : "ProximityStatus"
+    } ,
+
+    "Well_known_items": [
+        {
+            "categ" : "Rice",
+            "name" : "Rice",
+            "orig_weight" : 400,
+            "image" : "pathToImage",
+            "exp_expiring_days" : 30
+        },
+        {
+            "categ" : "Tomato",
+            "name" : "Pumaro can",
+            "orig_weight" : 400,
+            "image" : "pathToImage",
+            "exp_expiring_days" : 30
+        },
+        {
+            "categ" : "Vinegar",
+            "name" : "Vinegar",
+            "orig_weight" : 400,
+            "image" : "pathToImage",
+            "exp_expiring_days" : 30
+        },
+        {
+            "categ" : "Sugar",
+            "name" : "Sugar",
+            "orig_weight" : 400,
+            "image" : "pathToImage",
+            "exp_expiring_days" : 30
+        },
+        {
+            "categ" : "Mushroom",
+            "name" : "Mushroom",
+            "orig_weight" : 400,
+            "image" : "pathToImage",
+            "exp_expiring_days" : 30
+        },
+        {
+            "categ" : "Beans",
+            "name" : "Beans",
+            "orig_weight" : 400,
+            "image" : "pathToImage",
+            "exp_expiring_days" : 30
+        }
+    ],
+
+    "Well_known_theme" : [
+        {
+          "name" : "cans",
+          "icon" : "pathToIcon"
+        },
+        {
+            "name" : "legumes",
+            "icon" : "pathToIcon"
+        },
+        {
+            "name" : "pasta",
+            "icon" : "pathToIcon"
+        }
+    ],
+
+    "Cupboard_controller" : [
+        {
+            "IP" : "139.91.96.156",
+            "server_port" : 80,
+            "camera_IP" : "192.168.4.19",
+            "arduino1Port" : "/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.1:1.0-port0",
+            "arduino2Port" : "/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.2:1.0-port0"
+        }
+    ],
+
+    "Slot" : [
+        {
+            "start" : 12,
+            "end" : 20,
+            "shelf_id": 1
+        },
+        {
+            "start" : 20,
+            "end" : 40,
+            "shelf_id": 1
+        }
+    ],
+
+    "Shelf" : [
+        {
+            "height" : 30,
+            "length" : 400,
+            "cupboard_id" : 1
+        },
+        {
+            "height" : 200,
+            "length" : 400,
+            "cupboard_id" : 1
+        }
+    ],
+
+    "Cupboard": [
+        {
+            "door_status" : "closed",
+            "well_known_themes_id" : 1 ,
+            "default_time" : "3:00 am",
+            "rep_every" : 90,
+            "last_learn" : 180
+        },
+        {
+            "door_status" : "closed",
+            "well_known_themes_id" : 2 ,
+            "default_time" : "4:00 am",
+            "rep_every" : 40,
+            "last_learn" : 180
+        }
+    ],
+    "Users_permissions" : [
+        {"_id" : {
+            "idUser" : 1 ,
+            "cupboard_id" : 1
+        }},
+
+        {"_id" : {
+            "idUser" : 1 ,
+            "cupboard_id" : 2
+        }},
+
+        {"_id" : {
+            "idUser" : 2 ,
+            "cupboard_id" : 1
+        }}
+    ],
+
+    "Current_item":[
+        {
+            "Well_known_item_id" : 3,
+            "cupboard_id" : 1,
+            "slot_id" : 1,
+            "quantity" : 221,
+            "expiring_date" : "12/12/2022",
+            "last_user_id" : 1
+        },
+        {
+            "Well_known_item_id" : 2,
+            "cupboard_id" : 1,
+            "slot_id" : 2,
+            "quantity" : 221,
+            "expiring_date" : "12/12/2022",
+            "last_user_id" : 1
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+:host{ 
+    display: block;
+    left: 0;
+
+    width: 400px; //355
+    height: 120px;
+    cursor: pointer;
+}
+
+div.main-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: solid 1px grey;
+}
+
+
+div.ProductName{
+    font-size: 36px; 
+    position: absolute;
+    left: 106px;  
+    top: 15px;
+
+}
+
+div.ProductQuantity{
+    font-size: 28px;
+    position: absolute; 
+    left: 106px; 
+    top: 60px;
+}
+
+div.undefinedQuant{
+    font-size: 20px;
+    left: 106px; 
+    top: 60px;
+    font-style: italic;
+    // make the color more transparent
+    color: rgba(0,0,0,0.5);
+}
+
+div.ProductPhoto{
+    position: absolute;
+    left: 34px;
+    top: 6px;
+}
+
+div.ProductLeftLabel{
+    width: 32px;
+    height: 120px;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+
+    .icon{
+        right: 50%;
+        bottom: 50%;
+        transform: translate(50%,50%);
+        position: absolute;
+    }
+}
+
+hr {
+    width: 400px;
+    height: 0.5px;
+    background-color:black;
+    opacity: 0.3;
+
+    position: absolute;
+    top: 103px;
+    left: 0px;
+}

@@ -1,0 +1,23 @@
+body{
+    width: 800px;
+    height: 480px;
+    border-bottom: solid black;
+}
+
+div.UpperBar{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+div.middleBar{
+    position: absolute;
+    left: 0px;
+    top: 60px;
+}
+
+div.bottomBar{
+    position: absolute;
+    left: 0px;
+    top: 420px;
+}
